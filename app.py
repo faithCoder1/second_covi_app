@@ -28,26 +28,13 @@ st.text(
 
 YOLO (You Only Look Once) is a real-time object detection model.
 It can look at an image just once and instantly tell:
-
 ✅ What objects are in it (e.g., “apple”, “banana”, “car”)
-
 ✅ Where they are (bounding boxes with coordinates)
-
 ✅ How confident it is in each prediction
-
-That’s why it’s called “You Only Look Once.”
-
-🧠 How YOLO Works (Conceptually)
-
-Traditional object detectors (like R-CNN or Faster R-CNN) used a two-step process:
-
-Propose possible regions where objects might be.
-
-Classify those regions.
-
-YOLO simplified this by turning object detection into a single regression problem.
-
-It divides the input image into a grid (e.g., 13×13 or 640×640 cells), and for each grid cell, the model predicts:""")
+That’s why it’s called “You Only Look Once.” Traditional object detectors (like R-CNN or Faster R-CNN) used a two-step process:
+1.Propose possible regions where objects might be.
+2. Classify those regions.
+YOLO simplified this by turning object detection into a single regression problem. It divides the input image into a grid (e.g., 13×13 or 640×640 cells), and for each grid cell, the model predicts:""")
 st.header('Perform Object Detection on Your Image')
 
 # File uploader
