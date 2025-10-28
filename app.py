@@ -35,7 +35,7 @@ That’s why it’s called “You Only Look Once.” Traditional object detector
 1.Propose possible regions where objects might be.
 2. Classify those regions.
 YOLO simplified this by turning object detection into a single regression problem. It divides the input image into a grid (e.g., 13×13 or 640×640 cells), and for each grid cell, the model predicts:""")
-st.header('Perform Object Detection on Your Image')
+st.header('Perform Object Detection on Your Image with YOLO')
 
 # File uploader
 uploaded_file = st.file_uploader("Choose a file", type=["jpg", "jpeg", "png"])
