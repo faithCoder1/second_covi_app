@@ -23,7 +23,7 @@ st.set_page_config(
     layout="wide",
 )
 
-st.header('Perform Basic Image Processing on Your Image')
+st.header('Perform Object Detection on Your Image')
 
 # File uploader
 uploaded_file = st.file_uploader("Choose a file", type=["jpg", "jpeg", "png"])
