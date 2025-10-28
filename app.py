@@ -18,7 +18,7 @@ if sys.version_info >= (3, 13):
 
 # Streamlit app setup
 st.set_page_config(
-    page_title="Image Processing V1.0",
+    page_title="Object Detection V1.0",
     page_icon="✅",
     layout="wide",
 )
