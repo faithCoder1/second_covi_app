@@ -1,4 +1,4 @@
-python>=3.11
+imghdr-py==0.3
 pip>=21.0.1
 pillow>=8.2.0
 onnxruntime>=1.19.2
@@ -14,4 +14,4 @@ scikit-learn>=0.24.2
 protobuf>=3.19.1
 opencv-python-headless>=4.12.0
 protobuf>=3.19.1
-ultralytics>=8.3.0
+ultralytics>=8.2.0
