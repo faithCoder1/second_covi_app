@@ -1,4 +1,4 @@
-imghdr==0.3
+imghdr>=0.2
 pip>=21.0.1
 pillow>=8.2.0
 onnxruntime>=1.19.2
